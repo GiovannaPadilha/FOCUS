@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="etec.com.br.giovanna.focus">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.FOCUS">
+        <activity
+            android:name=".desempenho"
+            android:exported="false" />
+        <activity
+            android:name=".jogodamemoria"
+            android:exported="false" />
+        <activity
+            android:name=".numeros"
+            android:exported="false" />
+        <activity
+            android:name=".tarefaFrases"
+            android:exported="false" />
+        <activity
+            android:name=".telaJogosTarefas"
+            android:exported="false" />
+        <activity
+            android:name=".Telaprincipal"
+            android:exported="false" />
+        <activity
+            android:name=".jogodaVelha"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".telaLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

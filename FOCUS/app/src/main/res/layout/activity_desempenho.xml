@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".desempenho"
+    android:background="@drawable/fundo">
+
+    <Button
+        android:id="@+id/btnVoltarD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="138dp"
+        android:text="@string/voltar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="#0D9185"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txDesempenhoResp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txDesempenhoResp" />
+
+    <TextView
+        android:id="@+id/txTarefaF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txUsuario" />
+
+    <TextView
+        android:id="@+id/txTarefaN"
+        android:layout_width="6dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbF" />
+
+    <RatingBar
+        android:id="@+id/rbF"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:numStars="4"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txTarefaF" />
+
+    <RatingBar
+        android:id="@+id/rbN"
+        android:layout_width="196dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:numStars="4"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbF" />
+
+    <TextView
+        android:id="@+id/idPontF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="178dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbF" />
+
+    <TextView
+        android:id="@+id/txPontN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="178dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="@font/lastingsketch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbN" />
+</androidx.constraintlayout.widget.ConstraintLayout>

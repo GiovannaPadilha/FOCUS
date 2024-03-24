@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">FOCUS</string>
+
+    // tela cadastro do responsavel
+    <string name="cadas">Cadastro do responsavel</string>
+    <string name="nome">Digite seu nome</string>
+    <string name="email">Digite seu email</string>
+    <string name="datanas">Data de Nascimento</string>
+    <string name="senha">Senha</string>
+    <string name="jacadas">Possuo cadastro</string>
+
+    // botoes
+    <string name="prox">PROXIMO</string>
+    <string name="CADAST">CADASTRAR</string>
+    <string name="fin">FINALIZAR</string>
+
+
+    // tela cadastro usuario
+    <string name="cadasU">CADASTRO DO USUARIO</string>
+    <string name="comorbidade">Comorbidade</string>
+    <string name="infocomorbidade">Informe a comorbidade do usuário</string>
+    <string name="autismo">Autismo</string>
+    <string name="tdah">TDAH</string>
+    <string name="outros">Outros</string>
+
+    // tela login
+
+    <string name="Login">LOGIN</string>
+
+
+    //jogo da velha
+
+    <string name="JV">Novo jogo</string>
+    <string name="voltar">Voltar</string>
+
+    //tela jogos e tarefas
+    <string name="voltarJ">Voltar</string>
+    <string name="Jogos">JOGOS</string>
+    <string name="tarefas">TAREFAS</string>
+    <string name="Jdv">JOGO DA VELHA</string>
+    <string name="jdm">JOGO DA MEMORIA</string>
+    <string name="numeros">APRENDENDO OS NUMEROS</string>
+    <string name="frases">INDICANDO O NOME</string>
+
+
+    //tarefa frases
+
+    <string name="inicio">VAMOS INFORMAR OS NOMES?</string>
+    <string name="limpar">REINICIAR</string>
+    <string name="conf">CONFERIR</string>
+
+    //jogo da memoria
+    <string name="titulo1">Encontre as imagens</string>
+    <string name="botao1">Sair</string>
+    <string name="titulo2">Olá, </string>
+    <string name="titulo3">Seja bem-vindo ao jogo da memória</string>
+    <string name="botao2">Ajuda</string>
+    <string name="titulo4">PARABÉNS,</string>
+    <string name="titulo5">VOCÊ CONCLUIU O JOGO DA MEMÓRIA!</string>
+    <string name="titulo6">VOCÊ ESTÁ EVOLUINDO, NÃO DESISTA!</string>
+    <string name="titulo7">VOCÊ CONSEGUIU ENCONTRAR TODAS AS IMAGENS, PARABÉNS!</string>
+    <string name="botao3">Voltar ao menu</string>
+    <string name="botao4">Reiniciar jogo</string>
+    <string name="titulo">Escolha a imagem com ordem correta dos numeros</string>
+    <string name="botao5">Voltar</string>
+    <string name="botao6">Voltar</string>
+
+
+    //spiner
+    <string-array name="comorbidade">
+        <item>Comorbidade</item>
+        <item>Autismo</item>
+        <item>TDAH</item>
+        <item>Autismo e TDAH</item>
+    </string-array>
+
+    //desempenho
+    <string name="desemResp">Olá, </string>
+    <string name="desemResp2">acompanhe por aqui o desempenho do seu filho!</string>
+
+
+
+
+</resources>
